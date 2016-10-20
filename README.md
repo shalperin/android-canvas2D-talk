@@ -5,6 +5,5 @@ Android SDK provides two powerful graphics libraries: OpenGL ES and Canvas API. 
 In this book we will show how to use different graphics primitives, explain basics of coordinate systems and transformations, discuss two common approaches to writing multithreaded graphics applications, and provide a lot of examples.
 
 
-See: http://samhalperin.me/2016/01/28/android-2d-canvas-exploration/
+See: http://www.samhalperin.com/sam-halperin/2016/01/28/android-2d-canvas-exploration
 
-status: complete
