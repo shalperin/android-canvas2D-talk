@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Canvas Exercises</string>
+    <string name="title_activity_chart_mt">ChartMTActivity</string>
+    <string name="title_activity_progress">ProgressActivity</string>
+</resources>

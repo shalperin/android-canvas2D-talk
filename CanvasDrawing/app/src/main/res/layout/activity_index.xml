@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Screen Size"
+            android:id="@+id/screen_size"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Line View"
+            android:id="@+id/line_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PATH View"
+            android:id="@+id/path_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRIANGLE View"
+            android:id="@+id/triangle_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRIANGLE FILL View"
+            android:id="@+id/triangle_fill_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dashed Line View"
+            android:id="@+id/dashed_line_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text View"
+            android:id="@+id/text_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Typeface View"
+            android:id="@+id/custom_typeface_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Alignment View"
+            android:id="@+id/text_align_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Baseline View"
+            android:id="@+id/text_baseline_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Vertical Align View"
+            android:id="@+id/text_vertical_align_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Shadow View"
+            android:id="@+id/text_shadow_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bar Chart View"
+            android:id="@+id/bar_chart_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Circle View"
+            android:id="@+id/circle_view"
+            android:onClick="onButtonPress"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oval View"
+            android:id="@+id/oval_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arc View"
+            android:id="@+id/arc_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Circular Chart View"
+            android:id="@+id/circular_chart_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gradient View"
+            android:id="@+id/gradient_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gradient Ball View"
+            android:id="@+id/gradient_ball_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sweep Gradient View"
+            android:id="@+id/sweep_gradient_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transform View"
+            android:id="@+id/transform_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chart View"
+            android:id="@+id/chart_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Triangle View (Matrix)"
+            android:id="@+id/triangle_matrix_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chart View (Matrix)"
+            android:id="@+id/matrix_chart_view"
+            android:onClick="onButtonPress"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Transform Matrix (Bad Example)"
+            android:id="@+id/ctm_bad_example_view"
+            android:onClick="onButtonPress"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Current Transform Matrix (Fixed Example)"
+            android:id="@+id/ctm_fixed_example_view"
+            android:onClick="onButtonPress"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chart View (Multi threaded)"
+            android:id="@+id/chartViewMT"
+            android:onClick="onButtonPress"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progress View"
+            android:id="@+id/progress_view"
+            android:onClick="onButtonPress"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chart View (Surface View)"
+            android:id="@+id/chart_surface_view"
+            android:onClick="onButtonPress"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
